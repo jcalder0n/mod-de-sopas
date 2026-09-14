@@ -1,3 +1,25 @@
+
+
+-- Copyright (C) 2026 jcalder0n
+
+-- This file is part of this Minetest Mod.
+
+-- This Mod is free software: you can redistribute it and/or modify
+-- it under the terms of the GNU Affero General Public License as
+-- published by the Free Software Foundation, either version 3 of the
+-- License, or (at your option) any later version.
+
+-- This Mod is distributed in the hope that it will be useful,
+-- but WITHOUT ANY WARRANTY; without even the implied warranty of
+-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-- GNU Affero General Public License for more details.
+
+-- You should have received a copy of the GNU Affero General Public License
+-- along with This Mod.  If not, see <https://www.gnu.org/licenses/>.
+
+
+-- caldero_sopa/init.lua
+
 local function check_fuego(pos)
     local node_below = core.get_node({x = pos.x, y = pos.y - 1, z = pos.z})
     local name = node_below.name
